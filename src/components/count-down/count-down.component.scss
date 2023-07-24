@@ -17,10 +17,6 @@
     flex-direction: column;
     align-items: center;
 
-    @media (max-width: 992px) {
-      width: 50%;
-    }
-
     &::after {
       content: '';
       background: url('../../assets/timer-bg.svg') no-repeat 0 50%;

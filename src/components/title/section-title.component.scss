@@ -5,10 +5,10 @@
   margin: 0;
   font-weight: 500;
   color: var(--color-text);
-  padding-bottom: 20px;
   position: relative;
   display: block;
   text-align: center;
+  padding: 0 16px 20px;
 
   &__img {
     max-width: 32px;
