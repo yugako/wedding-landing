@@ -1,0 +1,33 @@
+.banner {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  &-celebrities {
+    color: var(--color-text);
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-family: var(--secondary-font);
+
+    span {
+      color: var(--color-primary);
+    }
+  }
+
+  &-date {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    color: var(--color-text);
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 110px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
