@@ -1,4 +1,6 @@
 import HeartImage from '../../assets/heart.svg';
+import FlowersImage from '../../assets/flowers.webp';
+
 import './banner.component.scss';
 import {CountDownComponent} from "../count-down/count-down.component";
 
@@ -17,6 +19,7 @@ export function BannerComponent() {
                 <CountDownComponent />
             </main>
 
+            <img className="banner-flowers" src={FlowersImage} alt="Flowers"/>
         </header>
     )
 }

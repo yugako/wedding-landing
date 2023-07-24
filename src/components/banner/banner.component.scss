@@ -1,7 +1,29 @@
 .banner {
-  min-height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
+  padding: 120px 0;
+
+  @media(max-width: 991px) {
+    padding-bottom: 60px;
+  }
+
+  &-flowers {
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+    z-index: -1;
+  }
+
+  &-content {
+    padding: 0 16px;
+    
+    img {
+      width: 110px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
 
   &-celebrities {
     color: var(--color-text);
@@ -14,6 +36,11 @@
     span {
       color: var(--color-primary);
     }
+
+    @media(max-width: 991px) {
+      font-size: 54px;
+      margin-bottom: 15px;
+    }
   }
 
   &-date {
@@ -23,11 +50,9 @@
     color: var(--color-text);
     margin: 0;
     text-transform: uppercase;
-  }
 
-  img {
-    width: 110px;
-    height: auto;
-    margin-bottom: 20px;
+    @media(max-width: 991px) {
+      font-size: 20px;
+    }
   }
 }

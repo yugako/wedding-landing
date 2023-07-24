@@ -4,8 +4,12 @@
   --color-text: #06002e;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .app-container {
-  max-width: 1140px;
+  max-width: 1440px;
   margin: auto;
-  padding: 0 16px;
 }

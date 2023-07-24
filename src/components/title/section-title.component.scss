@@ -1,0 +1,33 @@
+.section-title {
+  font-family: var(--secondary-font);
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0;
+  font-weight: 500;
+  color: var(--color-text);
+  padding-bottom: 20px;
+  position: relative;
+  display: block;
+  text-align: center;
+
+  &__img {
+    max-width: 32px;
+    display: block;
+    margin: 0 10px;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &::before,
+      &::after {
+        content: '';
+        display: inline-block;
+        height: 1px;
+        width: 100px;
+        background-color: #bbb;
+      }
+    }
+  }
+}

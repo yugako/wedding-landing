@@ -1,0 +1,33 @@
+.gallery {
+  margin-top: 30px;
+
+  &-row {
+    grid-gap: 16px;
+    margin-bottom: 16px;
+    display: grid;
+
+    &__item {
+      height: 600px;
+      background-size: cover;
+
+      @media (max-width: 991px) {
+        height: 350px;
+      }
+    }
+
+    &--1-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &--1-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+      padding: 0 16px;
+    }
+  }
+}
+
+
