@@ -40,19 +40,19 @@ export function CountDownComponent() {
         <div className="countdown-wrapper">
             <div className="time-section">
                 <div className="time">{days}</div>
-                <small className="time-text">Days</small>
+                <small className="time-text">Днів</small>
             </div>
             <div className="time-section">
                 <div className="time">{hours}</div>
-                <small className="time-text">Hours</small>
+                <small className="time-text">Годин</small>
             </div>
             <div className="time-section">
                 <div className="time">{minutes}</div>
-                <small className="time-text">Min</small>
+                <small className="time-text">Хвилин</small>
             </div>
             <div className="time-section">
                 <div className="time">{seconds}</div>
-                <small className="time-text">Sec</small>
+                <small className="time-text">Секунд</small>
             </div>
         </div>
     )

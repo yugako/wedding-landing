@@ -1,7 +1,16 @@
 :root {
-  --secondary-font: 'Dancing Script', cursive;
+  --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Caveat', cursive;
   --color-primary: #d66371;
   --color-text: #06002e;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--primary-font);
 }
 
 img {

@@ -4,8 +4,8 @@ import {SectionTitleComponent} from "../title/section-title.component";
 export function GalleryComponent() {
     return (
         <>
-            <SectionTitleComponent sectionTitle='Sweet Captured Moments' />
-            <div className="gallery">
+            <SectionTitleComponent sectionTitle='Солодкі моменти' />
+            <div className="gallery" id="gallery">
                 <div className="gallery-row gallery-row--1-3">
                     <div className="gallery-row__item" style={{backgroundImage: 'url(/photos/1.jpg)' }}></div>
                     <div className="gallery-row__item" style={{backgroundImage: 'url(/photos/2.jpg)' }}></div>

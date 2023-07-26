@@ -9,9 +9,10 @@
     &__item {
       height: 600px;
       background-size: cover;
+      background-position: center center;
 
       @media (max-width: 991px) {
-        height: 350px;
+        height: 550px;
       }
     }
 
@@ -24,8 +25,12 @@
     }
 
     @media (max-width: 991px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
       padding: 0 16px;
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
     }
   }
 }
