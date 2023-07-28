@@ -1,4 +1,6 @@
 .section-title {
+  $s: &;
+
   font-family: var(--secondary-font);
   font-size: 45px;
   line-height: 55px;
@@ -9,16 +11,44 @@
   display: block;
   text-align: center;
   padding: 0 16px 20px;
+  z-index: 3;
+
+  &__wrapper {
+    &.light {
+      #{$s} {
+        color: #fff;
+      }
+
+      #{$s}__img {
+        &-wrapper {
+          svg {
+            path {
+              fill: #fff;
+            }
+          }
+
+          &::before,
+          &::after {
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
 
   &__img {
-    max-width: 32px;
-    display: block;
-    margin: 0 10px;
-
     &-wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
+
+      svg {
+        max-width: 32px;
+        display: block;
+        margin: 0 10px;
+        position: relative;
+        z-index: 2;
+      }
 
       &::before,
       &::after {
@@ -27,6 +57,7 @@
         height: 1px;
         width: 100px;
         background-color: #bbb;
+        z-index: 3;
       }
     }
   }

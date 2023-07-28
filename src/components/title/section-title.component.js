@@ -1,14 +1,14 @@
-import DoveIcon from '../../assets/dove.svg';
+import {ReactComponent as DoveIcon} from '../../assets/dove.svg';
 import './section-title.component.scss';
 
-export function SectionTitleComponent({sectionTitle}) {
+export function SectionTitleComponent({sectionTitle, mode = 'default'}) {
     return (
-        <>
-            <div className="section-title__img-wrapper">
-                <img src={DoveIcon} className="section-title__img" alt={sectionTitle}/>
+        <div className={`section-title__wrapper ${mode === 'light' ? 'light' : ''}`}>
+            <div className={`section-title__img-wrapper`}>
+                <DoveIcon />
             </div>
 
             <h2 className="section-title">{sectionTitle}</h2>
-        </>
+        </div>
     )
 }

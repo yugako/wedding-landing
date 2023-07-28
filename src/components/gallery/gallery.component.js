@@ -3,9 +3,9 @@ import {SectionTitleComponent} from "../title/section-title.component";
 
 export function GalleryComponent() {
     return (
-        <>
+        <div className="gallery-wrapper">
             <SectionTitleComponent sectionTitle='Солодкі моменти' />
-            <div className="gallery" id="gallery">
+            <section className="gallery" id="gallery">
                 <div className="gallery-row gallery-row--1-3">
                     <div className="gallery-row__item" style={{backgroundImage: 'url(/photos/1.jpg)' }}></div>
                     <div className="gallery-row__item" style={{backgroundImage: 'url(/photos/2.jpg)' }}></div>
@@ -15,7 +15,7 @@ export function GalleryComponent() {
                     <div className="gallery-row__item" style={{backgroundImage: 'url(/photos/4.jpg)' }}></div>
                     <div className="gallery-row__item" style={{backgroundImage: 'url(/photos/7.jpg)' }}></div>
                 </div>
-            </div>
-        </>
+            </section>
+        </div>
     )
 }
