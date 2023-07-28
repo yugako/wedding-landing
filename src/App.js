@@ -12,7 +12,7 @@ function App() {
           <BannerComponent />
           <AboutUsComponent />
           <ScheduleComponent />
-          <CoupleFriendsComponent />
+          {/*<CoupleFriendsComponent />*/}
           <JoinUsComponent />
           <GalleryComponent />
       </>

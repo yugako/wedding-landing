@@ -13,7 +13,6 @@ export function CoupleFriendsComponent() {
                     </div>
 
                     <h3 className="person__name">Василь</h3>
-                    <p className="person__title">Дружба</p>
                 </div>
 
                 <div className="couple-friends__person person">
@@ -22,7 +21,6 @@ export function CoupleFriendsComponent() {
                     </div>
 
                     <h3 className="person__name">Ксенія</h3>
-                    <p className="person__title">Дружка</p>
                 </div>
             </div>
         </section>
