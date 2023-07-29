@@ -32,7 +32,7 @@ export function ScheduleComponent() {
 
                     <a href="https://goo.gl/maps/B2zUH4pBgmdXMZ2x9"
                         target="_blank" rel="noreferrer"
-                        className="schedule-card__link"
+                        className="schedule-card__link button"
                     >
                         Відкрити на карті
                     </a>
@@ -61,7 +61,7 @@ export function ScheduleComponent() {
                     <a href="https://goo.gl/maps/ip5ghVezFpmKyBNi8"
                         target="_blank"
                         rel="noreferrer"
-                        className="schedule-card__link"
+                        className="schedule-card__link button"
                     >
                         Відкрити на карті
                     </a>

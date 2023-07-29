@@ -6,7 +6,7 @@ export function AboutUsComponent() {
         <div className="app-container about-us__wrapper">
             <div className="about-us">
                 <div className="about-us__img">
-                    <img src="/photos/3.jpg" alt="Андріанна"/>
+                    <img src="/photos/bride.jpg" alt="Андріанна"/>
                 </div>
 
                 <div className="about-us__content">
@@ -25,7 +25,7 @@ export function AboutUsComponent() {
             </div>
             <div className="about-us reversed">
                 <div className="about-us__img">
-                    <img src="/photos/2.jpg" alt="Юра"/>
+                    <img src="/photos/groom.jpg" alt="Юра"/>
                 </div>
 
                 <div className="about-us__content">

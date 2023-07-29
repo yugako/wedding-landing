@@ -110,6 +110,11 @@
 
   &__picture {
     margin-right: -100px;
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
 
   &__card {
