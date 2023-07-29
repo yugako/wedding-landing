@@ -8,7 +8,7 @@ export function OurStoryComponent() {
             <SectionTitleComponent sectionTitle="Наша солодка історія"/>
 
             <div className="our-story__content">
-                <img src={Baloons} className="our-story__icon"/>
+                <img src={Baloons} alt="Іконка" className="our-story__icon"/>
             </div>
         </section>
     )
