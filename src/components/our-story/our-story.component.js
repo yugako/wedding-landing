@@ -14,7 +14,7 @@ export function OurStoryComponent() {
                     <img src={BaloonsIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section">
+                <div className="our-story__section first-meet">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/first_meet.jpg)'}} />
                     <div className="our-story__card">
                         <h3 className="our-story__title">Перша зустріч</h3>
@@ -38,7 +38,7 @@ export function OurStoryComponent() {
                     <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section reversed">
+                <div className="our-story__section after-long-leave reversed">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/after_long_leave.jpg)'}} />
 
                     <div className="our-story__card">
@@ -63,7 +63,7 @@ export function OurStoryComponent() {
                     <img src={DoveIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section">
+                <div className="our-story__section date-on-roof">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/date_on_the_roof.jpg)'}} />
                     <div className="our-story__card">
                         <h3 className="our-story__title">Побачення на даху</h3>
@@ -87,7 +87,7 @@ export function OurStoryComponent() {
                     <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section reversed">
+                <div className="our-story__section first-trip reversed">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/first-trip.jpg)'}} />
 
                     <div className="our-story__card">
@@ -112,7 +112,7 @@ export function OurStoryComponent() {
                     <img src={BaloonsIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section">
+                <div className="our-story__section new-year">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/new_year.jpg)'}} />
 
                     <div className="our-story__card">
@@ -137,7 +137,7 @@ export function OurStoryComponent() {
                     <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section reversed">
+                <div className="our-story__section 1-year-together reversed">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/1_year_together.jpg)'}} />
 
                     <div className="our-story__card">
@@ -162,7 +162,7 @@ export function OurStoryComponent() {
                     <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section">
+                <div className="our-story__section proposal">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/proposal.jpg)'}} />
 
                     <div className="our-story__card">

@@ -83,13 +83,54 @@
       padding-bottom: 0;
     }
 
+    &.first-meet {
+      #{$o}__picture {
+        margin-right: -75px;
+
+        @media (max-width: 768px) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &.after-long-leave {
+      #{$o}__picture {
+        background-position: 50% 0;
+      }
+    }
+
+    &.first-trip {
+      #{$o}__picture {
+        background-position: 50% 65%;
+      }
+    }
+
+    &.new-year {
+      #{$o}__picture {
+        background-position: 50% 35%;
+        margin-right: -60px;
+        height: 600px;
+
+        @media (max-width: 768px) {
+          margin-right: 0;
+          height: 500px;
+        }
+      }
+    }
+
+    &.proposal {
+      #{$o}__picture {
+        background-position: 50% 15%;
+      }
+    }
+
     @media (max-width: 768px) {
       flex-direction: column;
 
       #{$o}__picture {
         margin-left: 0;
         margin-right: 0;
-        transform: scale(1.2);
+        transform: scale(1.09);
       }
 
       #{$o}__card {
@@ -115,6 +156,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   &__card {
