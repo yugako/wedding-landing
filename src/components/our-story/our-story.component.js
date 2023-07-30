@@ -17,33 +17,8 @@ export function OurStoryComponent() {
                 <div className="our-story__section first-meet">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/first_meet.jpg)'}} />
                     <div className="our-story__card">
-                        <h3 className="our-story__title">Перша зустріч</h3>
+                        <h3 className="our-story__title">Перше побачення</h3>
                         <p className="our-story__date">14 лютого 2022</p>
-
-                        <div className="line-shape">
-                            <div className="outer-ball">
-                                <div className="inner-ball"></div>
-                            </div>
-                        </div>
-
-                        <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="icon-wrapper">
-                    <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
-                </div>
-
-                <div className="our-story__section after-long-leave reversed">
-                    <div className="our-story__picture" style={{backgroundImage: 'url(/photos/after_long_leave.jpg)'}} />
-
-                    <div className="our-story__card">
-                        <h3 className="our-story__title">Після тривалої розлуки...</h3>
-                        <p className="our-story__date">22 травня 2022</p>
 
                         <div className="line-shape">
                             <div className="outer-ball">
@@ -63,10 +38,10 @@ export function OurStoryComponent() {
                     <img src={DoveIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section date-on-roof">
+                <div className="our-story__section reversed date-on-roof">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/date_on_the_roof.jpg)'}} />
                     <div className="our-story__card">
-                        <h3 className="our-story__title">Побачення на даху</h3>
+                        <h3 className="our-story__title">Сюрприз на даху</h3>
                         <p className="our-story__date">28 червня 2022</p>
 
                         <div className="line-shape">
@@ -87,11 +62,11 @@ export function OurStoryComponent() {
                     <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
-                <div className="our-story__section first-trip reversed">
+                <div className="our-story__section first-trip">
                     <div className="our-story__picture" style={{backgroundImage: 'url(/photos/first-trip.jpg)'}} />
 
                     <div className="our-story__card">
-                        <h3 className="our-story__title">Перша подорож разом</h3>
+                        <h3 className="our-story__title">Перша подорож</h3>
                         <p className="our-story__date">16 жовтня 2022</p>
 
                         <div className="line-shape">
@@ -110,31 +85,6 @@ export function OurStoryComponent() {
 
                 <div className="icon-wrapper">
                     <img src={BaloonsIcon} alt="Іконка" className="our-story__icon"/>
-                </div>
-
-                <div className="our-story__section new-year">
-                    <div className="our-story__picture" style={{backgroundImage: 'url(/photos/new_year.jpg)'}} />
-
-                    <div className="our-story__card">
-                        <h3 className="our-story__title">Новий рік</h3>
-                        <p className="our-story__date">31 грудня 2022</p>
-
-                        <div className="line-shape">
-                            <div className="outer-ball">
-                                <div className="inner-ball"></div>
-                            </div>
-                        </div>
-
-                        <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="icon-wrapper">
-                    <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
                 <div className="our-story__section 1-year-together reversed">
@@ -159,7 +109,7 @@ export function OurStoryComponent() {
                 </div>
 
                 <div className="icon-wrapper">
-                    <img src={DanceIcon} alt="Іконка" className="our-story__icon"/>
+                    <img src={DoveIcon} alt="Іконка" className="our-story__icon"/>
                 </div>
 
                 <div className="our-story__section proposal">
