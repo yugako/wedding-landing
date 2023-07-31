@@ -11,8 +11,10 @@ export function AboutUsComponent() {
 
                 <div className="about-us__content">
                     <h2 className="about-us__name">Наречена</h2>
-                    <p className="about-us__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Aut beatae deserunt dolorum harum id ipsa minima quae quaerat recusandae sunt?
+                    <p className="about-us__descr">
+                        Я люблю тебе з першої нашої зустрічі. Кожен твій поцілунок примножує мої почуття.
+                        Кожен твій дотик дає мені відчуття того, що я бажана.
+                        Кожне твоє слово - вказує на вірно обраний шлях - разом з тобою, наперекір долі або в згоді з нею.
                     </p>
 
                     <div className="about-us__socials">
@@ -30,8 +32,11 @@ export function AboutUsComponent() {
 
                 <div className="about-us__content">
                     <h2 className="about-us__name">Наречений</h2>
-                    <p className="about-us__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Aut beatae deserunt dolorum harum id ipsa minima quae quaerat recusandae sunt?
+                    <p className="about-us__descr">
+                        Я обіцяю бути тобі опорою і підтримкою. Радіти щасливим моментам разом і разом боротися з труднощами.
+                        У тебе не буде причин сумніватися в мені.
+                        Жодне нещастя не зможе вбити моїх почуттів і зламати твою віру в себе.
+                        Моя вірність - це те, в чому клянусь тобі відтепер і навіки. Кохаю тебе!
                     </p>
 
                     <div className="about-us__socials">

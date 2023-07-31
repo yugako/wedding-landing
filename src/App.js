@@ -7,6 +7,7 @@ import {ScheduleComponent} from "./components/schedule/schedule.component";
 import {OurStoryComponent} from "./components/our-story/our-story.component";
 import {LoaderComponent} from "./components/loader/loader.component";
 import './App.scss';
+import {FlowersDisclaimerComponent} from "./components/flowers-disclaimer/flowers-disclaimer.component";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <JoinUsComponent />
           <OurStoryComponent />
           <GalleryComponent />
+          <FlowersDisclaimerComponent />
       </Suspense>
   );
 }

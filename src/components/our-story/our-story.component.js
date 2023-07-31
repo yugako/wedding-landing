@@ -27,9 +27,8 @@ export function OurStoryComponent() {
                         </div>
 
                         <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
+                            Наша історія почалась цікаво, ми б сказали навіть кумедно :) Познайомились ми за збігом обставин і ліні брата нареченої 😀
+                            Хоч ця зустріч і була випадковою, але вона стала точно вагомою в нашому житті🧡 Дуже символічно вийшло, що саме перше побачення було в День Закоханих.
                         </p>
                     </div>
                 </div>
@@ -51,9 +50,8 @@ export function OurStoryComponent() {
                         </div>
 
                         <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
+                            Юра завжди любив робити сюрпризи! Одним з перших було побачення на даху будинку в Львові.
+                            Ці відчуття неможливо передати. Особливою була атмосфера та час проведений разом 🧡
                         </p>
                     </div>
                 </div>
@@ -76,9 +74,8 @@ export function OurStoryComponent() {
                         </div>
 
                         <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
+                            Їздили ми разом в гори, як ті жабки мандрівниці :)
+                            Вперше в житті подорож разом, вперше поварились в чані та побачили справжню ламу! <br /> P.S. Вони плюються)
                         </p>
                     </div>
                 </div>
@@ -101,9 +98,7 @@ export function OurStoryComponent() {
                         </div>
 
                         <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
+                            Рік разом пролетів дуже швидко :) Це було наше маленьке свято, яке ми провели тільки вдвох 🧡
                         </p>
                     </div>
                 </div>
@@ -126,9 +121,7 @@ export function OurStoryComponent() {
                         </div>
 
                         <p className="our-story__descr">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A ab dignissimos eius ex itaque, laboriosam, magnam molestias necessitatibus officiis placeat qui reprehenderit sequi, sint!
-                            Doloremque esse id itaque qui suscipit.
+                            Це серйозний крок в наших стосунках, але ми щасливі, бо починаємо новий етап в нашому житті! Створюємо сімʼю🧡
                         </p>
                     </div>
                 </div>

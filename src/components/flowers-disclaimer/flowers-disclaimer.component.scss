@@ -1,0 +1,38 @@
+.disclaimer {
+  padding: 160px 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center center;
+
+  @media (max-width: 768px) {
+    padding: 100px 16px;
+  }
+
+  &__title {
+    font-size: 52px;
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    font-family: var(--secondary-font);
+    text-align: center;
+    max-width: 55%;
+
+    @media (max-width: 991px) {
+      font-size: 42px;
+      line-height: 1;
+    }
+  }
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
